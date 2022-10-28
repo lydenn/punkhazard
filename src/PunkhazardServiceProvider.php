@@ -2,9 +2,9 @@
 
 namespace Lydenn\Punkhazard;
 
+use Lydenn\Punkhazard\Commands\PunkhazardCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Lydenn\Punkhazard\Commands\PunkhazardCommand;
 
 class PunkhazardServiceProvider extends PackageServiceProvider
 {
