@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Lydenn\Punkhazard\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class PunkhazardCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'punkhazard';
 
     public $description = 'My command';
 
