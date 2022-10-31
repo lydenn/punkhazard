@@ -28,9 +28,7 @@ class TestCase extends Orchestra
     {
         config()->set('database.default', 'testing');
 
-        /*
-        $migration = include __DIR__.'/../database/migrations/create_punkhazard_table.php.stub';
+        $migration = include __DIR__.'/../database/migrations/create_countries_table.php.stub';
         $migration->up();
-        */
     }
 }
