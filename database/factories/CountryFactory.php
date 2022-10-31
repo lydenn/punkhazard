@@ -14,7 +14,7 @@ class CountryFactory extends Factory
         return [
             'name' => fake()->name(),
             'slug' => fake()->name(),
-            'code' => fake()->name()
+            'code' => fake()->name(),
         ];
     }
 }

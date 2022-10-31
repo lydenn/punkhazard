@@ -6,7 +6,7 @@ test('expect country to have name slug and code', function () {
     $country = Country::factory()->create([
         'name' => 'Cambodia',
         'slug' => 'cambodia',
-        'code' => 'kh'
+        'code' => 'kh',
     ]);
 
     expect($country->name)->toEqual('Cambodia');
