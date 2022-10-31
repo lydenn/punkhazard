@@ -20,6 +20,7 @@ class PunkhazardServiceProvider extends PackageServiceProvider
             ->hasConfigFile()
             ->hasViews()
             ->hasMigration('create_punkhazard_table')
+            ->hasMigration('create_countries_table')
             ->hasCommand(PunkhazardCommand::class);
     }
 }
